@@ -1,1 +1,52 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  /* outline: 1px solid red; */
+}
+
+body {
+  background-color: #0e7e12;
+}
+
+.card {
+  background-color: #fbfbfb;
+  width: 250px;
+  height: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.upLeft {
+  align-self: center;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 5px;
+  font-size: xx-large;
+}
+
+.downRight {
+  align-self: Center;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+  font-size: xx-large;
+}
+
+.cardNumber {
+  display: flex;
+  justify-content: center;
+}
+
+.redCardSuites {
+  color: red;
+}
